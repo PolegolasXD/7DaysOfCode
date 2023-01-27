@@ -1,19 +1,61 @@
-#formulario-principal {
-    width: 460px;
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
+body{
+    background-color: darkgray;
+    width: 430px;
+    display: flex;
+    padding: 3em;
+    margin: auto;
 }
+
+main{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: rgb(235, 255, 179) ;
+}
+
+#formulario-principal {
+    width: 100%;
+    display: inline-block;
+    font-family: cursive;
+    text-align: justify;
+    
+}
+
 
 .input-formPrincipal {
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 0 0 10%;
     width: 100%;
+    border-radius: 7px;
+    font-family: cursive;
+    text-align: justify;
 }
 
 .botao-estilo {
-    display: inline-block;
+    display: inline;
     width: 50%;
-    margin: 0 0 0 115px;
+    margin: 1% 25%;
+    padding: 7px;
+    border-radius: 7px;
+    border: 2px solid #000000;
+    font-size: medium;
+    font-family: cursive;
+}
+
+.botao-estilo:hover{
+    background-color: rgb(255, 226, 129);
+    transition: 400ms;
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: bold;
 }
