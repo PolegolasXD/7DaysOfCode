@@ -12,8 +12,8 @@
     width: 100%;
 }
 
-.botao-enviar {
-    display: block;
+.botao-estilo {
+    display: inline-block;
     width: 50%;
     margin: 0 0 0 115px;
 }

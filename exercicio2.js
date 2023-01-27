@@ -13,21 +13,26 @@ console.log(linguagem);
 const botao = document.querySelector('#botao');
 
 botao.addEventListener("click", function(event) {
-    console.log(event)
+    console.log(event);
     event.preventDefault();
 
-    const [valorNome, valorIdade, valorLinguagem] = event.target.form;
-    criaParagrafo(valorNome.value);
-    criaParagrafo(valorIdade.value);
-    criaParagrafo(valorLinguagem.value);
+    const valores = event.target.form;
+    criaParagrafo(valores);
+
 })
 
-function criaParagrafo(valorParagrafo){
-    
+function criaParagrafo(valores){
+
+    const [valorNome, valorIdade, valorLinguagem] = valores;
+
     const paragrafo = document.createElement('p');
-    const nomeCaixaTexto = document.createTextNode(valorParagrafo);
+    const nomeCaixaTexto = document.createTextNode(`Olá meu nome ${valorNome.value}, tenho ${valorIdade.value} e estou aprendendo ${valorLinguagem.value}`);
     paragrafo.appendChild(nomeCaixaTexto);
     form.appendChild(paragrafo);
 
+}
+
+function limparCampo(valores){
+    document.querySelectorAll('#formulario-principal').value = "";
 }
 
