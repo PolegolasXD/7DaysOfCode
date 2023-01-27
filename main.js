@@ -37,4 +37,29 @@ if (numeroDez = stringDez) {
 }
 
 
+const nome = prompt("Digite o seu nome:");
+const idade = prompt("Quantos anos você tem?:");
+const linguagemDeProgramacao = prompt("Qual linguagem de programação você está estudando?:");
+
+const mensagemUsuario = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagemDeProgramacao}!`;
+
+alert(mensagemUsuario);
+
+const condicional = prompt(`Voce gosta de estudar ${linguagemDeProgramacao}?? Responta com 1 pra sim e 2 pra não`);
+
+
+
+function condicionalResposta(){
+
+  if (condicional === "1") {
+    alert("Muito bom! Continue estudando e você terá muito sucesso.");
+  }
+  if (condicional === "2") {
+    alert("Ahh que pena... Já tentou aprender outras linguagens?");
+  } 
+
+}
+condicionalResposta();
+
+
 
