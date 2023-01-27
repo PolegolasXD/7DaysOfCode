@@ -1,16 +1,33 @@
-const form = document.querySelectorAll('form');
-const botaum = document.querySelector('#botaum');
+const form = document.querySelector('#formulario-principal');
+const nome = document.querySelector('#nome');
+const idade = document.querySelector('#idade');
+const linguagem = document.querySelector('#linguagem-programacao');
 
-console.log(form)
-console.log(botaum)
 
-form.addEventListener('submit', event => {
+console.log(nome);
+console.log(idade);
+console.log(linguagem);
+
+
+
+const botao = document.querySelector('#botao');
+
+botao.addEventListener("click", function(event) {
+    console.log(event)
     event.preventDefault();
-    const clicandoBotao = botaum.value;
 
-    console.log(clicandoBotao);
-
-    console.log(event);
-    console.log("potate")
+    const [valorNome, valorIdade, valorLinguagem] = event.target.form;
+    criaParagrafo(valorNome.value);
+    criaParagrafo(valorIdade.value);
+    criaParagrafo(valorLinguagem.value);
 })
+
+function criaParagrafo(valorParagrafo){
+    
+    const paragrafo = document.createElement('p');
+    const nomeCaixaTexto = document.createTextNode(valorParagrafo);
+    paragrafo.appendChild(nomeCaixaTexto);
+    form.appendChild(paragrafo);
+
+}
 
