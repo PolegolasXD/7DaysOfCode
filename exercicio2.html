@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script async src="exercicio2.js"></script>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>7DaysOfCode</title>
 </head>
@@ -24,11 +25,16 @@
             <input type="text" id="linguagem-programacao" class="input-formPrincipal" required
                 placeholder="Java Script">
 
-            <input type="submit" value="Enviar Resposta" class="botao-estilo" id="botao">
-            <input type="reset" name="limpar-form" value="Limpar Campo" onclick="limparCampo()" class="botao-estilo">
+            <div id="div-botao">
+                <input type="submit" value="Enviar Resposta" class="botao-estilo" id="botao">
+                <input type="reset" name="limpar-form" value="Limpar Campo" onclick="limparCampo()"
+                    class="botao-estilo">
+            </div>
         </form>
-
     </main>
+
+    <div id="card-down"></div>
+
 </body>
 
 </html>

@@ -1,64 +1,112 @@
+html{
+    height: 100%;
+}
+
 body{
-    background-color: darkgray;
-    width: 430px;
+    background-color: rgb(31, 30, 30);
     display: flex;
-    padding: 3em;
-    margin: auto;
+    flex-direction: column;
+    gap: 10pxs;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
     display: inline-block;
     text-align: center;
-    width: 100%;
+    max-width: 430px;
     vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 40px 30px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
     background-image: linear-gradient(45deg, rgb(179, 255, 185), rgb(111, 111, 230), pink, rgb(224, 72, 72));
+
 }
-
-
-
 
 #formulario-principal {
     width: 100%;
-    display: inline-block;
-    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: sans-serif;
     text-align: justify;
     font-size: 20px;
+
 }
 
+#card-down {
+    opacity: 0;
+    max-height: 100px;
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-Y: scroll;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: linear-gradient(45deg, rgb(179, 255, 185), rgb(111, 111, 230), pink, rgb(224, 72, 72));
+}
+
+#card-down::-webkit-scrollbar{
+    width: 5px;
+    padding-left: 30px;
+}
+
+#card-down::-webkit-scrollbar-track{
+    background: transparent;
+
+}
+
+#card-down::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 60px;
+
+}
 
 .input-formPrincipal {
     display: block;
     font-size: 20px;
-    margin: 0 0 10%;
     width: 100%;
     border-radius: 7px;
-    font-family: cursive;
+    font-family: sans-serif;
     text-align: justify;
 }
 
 .botao-estilo {
     display: inline;
-    width: 50%;
-    margin: 1% 25%;
+    width: 100%;
     padding: 7px;
     border-radius: 7px;
     border: 2px solid #000000;
     font-size: medium;
-    font-family: cursive;
+    font-family: sans-serif;
+    background-image: linear-gradient(45deg, rgb(252, 70, 70), rgb(59, 59, 255), rgb(52, 255, 52), rgb(255, 111, 135) );
+    transition: 400ms;
+    color: #ffffff;   
+    font-weight: bold;
+}
+
+#div-botao{
+    display: flex;
+    gap: 10px;
+    
 }
 
 .botao-estilo:hover{
-    background-color: rgb(167, 255, 140);
-    transition: 400ms;
+    background-image: linear-gradient(135deg, rgb(248, 102, 199), rgb(49, 252, 66), rgb(38, 77, 250),  rgb(250, 44, 44));
     font-size: 20px;
+    cursor: pointer;
 }
 
 p {
     font-size: 15px;
     font-weight: bold;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 50px;
 }
+

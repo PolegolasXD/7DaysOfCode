@@ -28,11 +28,14 @@ function criaParagrafo(valores){
     const paragrafo = document.createElement('p');
     const nomeCaixaTexto = document.createTextNode(`Olá meu nome ${valorNome.value}, tenho ${valorIdade.value} e estou aprendendo ${valorLinguagem.value}`);
     paragrafo.appendChild(nomeCaixaTexto);
-    form.appendChild(paragrafo);
+    const divDown = document.getElementById('card-down');
+    divDown.appendChild(paragrafo);
+    divDown.style.opacity = "1";
 
 }
 
-function limparCampo(valores){
+function limparCampo(){
     document.querySelectorAll('#formulario-principal').value = "";
 }
+
 
