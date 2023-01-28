@@ -36,6 +36,7 @@ function criaParagrafo(valores){
 
 function limparCampo(){
     document.querySelectorAll('#formulario-principal').value = "";
+    
 }
 
 
