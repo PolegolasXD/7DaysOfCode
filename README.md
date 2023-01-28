@@ -1,5 +1,4 @@
 <h2 align="center"> Primeiro exercicio do 7DaysOfCode </h2>
-
 Este primeiro dia é super importante! Ao final dele, você terá um novo conhecimento que é essencial para os próximos desafios.
 
 Existe uma situação super comum para quem utiliza o Javascript: problemas com os tipos de variáveis na hora de comparar os valores de duas variáveis entre si. Eu já passei muito por isso!
@@ -72,4 +71,17 @@ Você gosta de estudar [linguagem]? Responda com o número 1 para SIM ou 2 para 
 E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 
 1 > Muito bom! Continue estudando e você terá muito sucesso.
-2 > Ahh que pena... Já tentou aprender outras linguagens?
+2 > Ahh que pena... Já tentou aprender outras linguagens
+
+##
+
+
+<h2 align="center"> Link para o programinha aqui!</h2>
+
+ https://polegolasxd.github.io/7DaysOfCode/exercicio2.html
+ 
+![image](https://user-images.githubusercontent.com/85709318/215230155-9b970ec9-c67b-4570-a6b6-7bde7132b811.png)
+
+Depois de realizar o desafio resolvi melhorar o projeto procurando novas maneiras de imprimir na tela o que estava sendo atribuido ao input.
+algumas horas depois o projetinho ficou assim.
+
