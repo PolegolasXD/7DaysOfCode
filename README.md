@@ -74,6 +74,7 @@ E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 1 > Muito bom! Continue estudando e você terá muito sucesso.
 2 > Ahh que pena... Já tentou aprender outras linguagens
 
+<h2 align="center"> Explicação do Exercicio opcional do segundo dia de 7DaysOfCode </h2>
 
 Con esstrutura if, e utilizando o prompt para mostrar ao usuario o que imprimimos, e o que queremos que ele digite, criamos uma serie de perguntas que armazenam o valor digitado em uma variavel, e apresenta dentro de um texto no final do programa.
 ##
@@ -104,3 +105,8 @@ Seu desafio de hoje é criar os destinos possíveis de um jogo, em que o usuári
 O importante é que a pessoa que estiver jogando possa sempre escolher qual decisão tomar para conseguir aprender e se desenvolver na área de programação.
 
 Além disso, também é essencial que, ao final do jogo, ela possa inserir quantas tecnologias quiser na lista de aprendizado.
+
+
+<h2 align="center">Explicação Terceiro Exercicio do 7DaysOfCode</h2>
+
+Depois de adicionar o os prompts, e os if, para direcionar o usuario dependendo da resposta, para adicionar o While tive algumas dificuldades, pos nao estava conseguindo colocar no click "Ok" ou "Cancelar" condicionalmente, então usei o Array que seria o final para mostrar no console.log tudo que foi escrito no ultimo prompt, para verificar se digitou "Cancelar" e sair do while.
