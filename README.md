@@ -110,3 +110,5 @@ Além disso, também é essencial que, ao final do jogo, ela possa inserir quant
 <h2 align="center">Explicação Terceiro Exercicio do 7DaysOfCode</h2>
 
 Depois de adicionar o os prompts, e os if, para direcionar o usuario dependendo da resposta, para adicionar o While tive algumas dificuldades, pos nao estava conseguindo colocar no click "Ok" ou "Cancelar" condicionalmente, então usei o Array que seria o final para mostrar no console.log tudo que foi escrito no ultimo prompt, para verificar se digitou "Cancelar" e sair do while.
+
+https://polegolasxd.github.io/7DaysOfCode/exercicio3.html
