@@ -110,3 +110,35 @@ Além disso, também é essencial que, ao final do jogo, ela possa inserir quant
 <h2 align="center">Explicação Terceiro Exercicio do 7DaysOfCode</h2>
 
 Depois de adicionar o os prompts, e os if, para direcionar o usuario dependendo da resposta, para adicionar o While tive algumas dificuldades, pos nao estava conseguindo colocar no click "Ok" ou "Cancelar" condicionalmente, então usei o Array que seria o final para mostrar no console.log tudo que foi escrito no ultimo prompt, para verificar se digitou "Cancelar" e sair do while.
+
+<h2 align="center"> Quarto Exercicio do 7DaysOfCode</h2>
+Neste exercicios, foi um pouco mais simples pois ja tinha feito um desses em um outro curso, então ja conhecias as propriedades para resolver.
+
+
+<h2 align="center"> Quinto Exercicio do 7DaysOfCode</h2>
+/*
+
+Primeiro 
+
+Voce deseja adicionar uma comida a sua lista de compras ? 
+
+Sim ou nao ?
+
+
+Se sim, entao o campo para digitar a comida por exemplo prompt("digite a comida!")
+
+Digitando a comida, proximo campo pompt("em qual categoria essa comida se encaixa ? ")
+
+Digitando o campo, tem que ser adicionado dentro de uma lista, pré definida
+
+
+Se não, exibir uma lista com todos os itens agrupados como 
+
+banana, leite em pó, tomate, leite vegetal, chiclete, bala de ursinho, maçã, uva, abacate e leite de vaca 
+
+Lista de compras:
+    Frutas: banana, tomate, maçã, uva, abacate
+    Laticínios: leite vegetal, leite de vaca, leite em pó
+    Congelados:
+    Doces: chiclete e bala de ursinho
+*/
