@@ -115,10 +115,6 @@ Depois de adicionar o os prompts, e os if, para direcionar o usuario dependendo 
 
 criar um jogo de adivinha
 
-<h1>Explicação do Quinto exercicios </h1>
-Neste exercicios, foi um pouco mais simples pois ja tinha feito um desses em um outro curso, então ja conhecias as propriedades para resolver.
-
-
 <h2 align="center"> Quinto Exercicio do 7DaysOfCode</h2>
 /*
 
