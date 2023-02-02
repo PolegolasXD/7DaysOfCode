@@ -1,3 +1,6 @@
+Para executar os exercicios, comentem o link script do atual, e descomentem o que desejam executar
+
+
 <h2 align="center"> Primeiro exercicio do 7DaysOfCode </h2>
 Este primeiro dia é super importante! Ao final dele, você terá um novo conhecimento que é essencial para os próximos desafios.
 
