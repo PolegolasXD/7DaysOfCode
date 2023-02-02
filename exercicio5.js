@@ -33,37 +33,65 @@ let doces = [];
 let campoComida = "";
 let campoCategoria = "";
 
-let addFood = "sim";  
+let addFood = "sim";
 
-while(addFood != "não"){
+while (addFood != "não") {
     addFood = prompt("Você deseja adicionar uma comida na lista de compras? Responda 'sim' ou 'não'.");
 
-    while (addFood != "sim" && addFood != "não") {  
-	alert(`Operação não reconhecida!`);
+    while (addFood != "sim" && addFood != "não") {
+        alert(`Operação não reconhecida!`);
         addFood = prompt("Você deseja adicionar uma comida na lista de compras? Responda 'sim' ou 'não'.");
     }
-	
-    if (addFood === "não"){  
+
+    if (addFood === "não") {
         break;
     }
-	
+
     campoComida = prompt("Qual comida você deseja inserir?");
 
     campoCategoria = prompt("Em qual categoria essa comida se encaixa: 'frutas', 'laticínios', 'doces' ou 'congelados'?")
 
-    if(campoCategoria === 'frutas'){
+    if (campoCategoria === 'frutas') {
         frutas.push(campoComida);
-    } else if (campoCategoria === 'laticínios'){
+    } else if (campoCategoria === 'laticínios') {
         laticinios.push(campoComida);
-    } else if (campoCategoria === 'doces'){
+    } else if (campoCategoria === 'doces') {
         doces.push(campoComida);
-    } else if (campoCategoria === 'congelados'){
+    } else if (campoCategoria === 'congelados') {
         congelados.push(campoComida);
     } else {
         alert("Essa categoria não foi pré-definida.")
     }
 }
-console.log(`Lista de compras:\n  Frutas: ${frutas}\n  Laticínios: ${laticinios}\n  Doces: ${doces}\n  Congelados: ${congelados}`);
+alert(`Lista de compras:\n  Frutas: ${frutas}\n  Laticínios: ${laticinios}\n  Doces: ${doces}\n  Congelados: ${congelados}`);
+
+
+excluirItem = prompt("voce deseja escluir algum item da lista ?");
+
+function excluir() {
+
+    while (excluirItem === "sim") {
+        excluirItemResposta = prompt(`Deseja excluir o ultimo item de qual lista? 'frutas', 'laticínios', 'doces' ou 'congelados'`)
+     
+        if (excluirItemResposta === "frutas") {
+            frutas.pop()
+        } if (excluirItemResposta === "laticinios") {
+            laticinios.pop()
+        } if (excluirItemResposta === "doces") {
+            doces.pop()
+        } if (excluirItemResposta === "congelados") {
+            congelados.pop()
+        } else if (excluirItem === "não") {
+            break
+        }
+    }
+}
+excluir();
+
+alert(`Lista de compras:\n  Frutas: ${frutas}\n  Laticínios: ${laticinios}\n  Doces: ${doces}\n  Congelados: ${congelados}`);
+
+
+
 
 
 
